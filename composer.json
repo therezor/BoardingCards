@@ -1,0 +1,21 @@
+{
+  "name": "therezor/boarding-cards",
+  "description": "An API that lets you sort this kind of list and present back a description of how to complete your journey.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "rezor",
+      "email": "zmrezor@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "phpunit/phpunit": "~6.3"
+  },
+  "autoload": {
+    "psr-4": {"TheRezor\\BoardingCards\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {"TheRezor\\BoardingCards\\": "tests/"}
+  }
+}
